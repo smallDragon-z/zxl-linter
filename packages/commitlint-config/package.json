@@ -22,13 +22,10 @@
   "bugs": {
     "url": "https://github.com/smallDragon-z/zxl-linter/issues"
   },
-  "license": "ISC",
   "scripts": {
     "publish": "pnpm publish"
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  },
-  "devDependencies": {
   }
 }
