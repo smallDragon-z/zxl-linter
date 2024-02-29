@@ -8,16 +8,19 @@
     "lint"
   ],
   "author": "zhang_xiao_long",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "homepage": "https://github.com/smallDragon-z/zxl-linter#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/smallDragon-z/zxl-linter.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+    "url": "https://github.com/smallDragon-z/zxl-linter/issues"
   },
   "license": "ISC",
+  "scripts": {
+    "publish": "pnpm publish"
+  },
   "peerDependencies": {
     "markdownlint": "^0.33.0"
   }
