@@ -1,0 +1,31 @@
+{
+  "name": "zxl-commitlint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "commitlint config for fe-spec",
+  "keywords": [
+    "commitmessage",
+    "commitmsg",
+    "git",
+    "commit",
+    "git commit",
+    "lint",
+    "commit lint"
+  ],
+  "author": "zhang_xiao_long",
+  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  },
+  "devDependencies": {
+  }
+}

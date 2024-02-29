@@ -1,0 +1,1 @@
+这是项目中使用到的git commit message规范，使用了commitlint进行校验。

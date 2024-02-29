@@ -1,0 +1,24 @@
+{
+  "name": "zxl-markdownlint-config",
+  "version": "0.0.1",
+  "main": "index.json",
+  "description": "markdown文档规范",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
+  "author": "zhang_xiao_long",
+  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "markdownlint": "^0.33.0"
+  }
+}

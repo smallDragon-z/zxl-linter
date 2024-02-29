@@ -1,0 +1,31 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky",
+    "commitlint": "commitlint --edit",
+    "bootstrap": "lerna bootstrap",
+    "mdlint": "markdownlint **/*.md && lerna run mdlint",
+    "clean": "lerna clean",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "husky": "^9.0.11",
+    "lerna": "^8.1.2",
+    "lint-staged": "^15.2.2",
+    "markdownlint": "^0.33.0",
+    "markdownlint-cli": "^0.39.0",
+    "prettier": "^3.2.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
