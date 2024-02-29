@@ -9,7 +9,7 @@
     "prepare": "husky",
     "commitlint": "commitlint --edit",
     "bootstrap": "lerna bootstrap",
-    "mdlint": "markdownlint **/*.md && lerna run mdlint",
+    "mdlint": "markdownlint **/*.md",
     "clean": "lerna clean",
     "build": "lerna run build",
     "test": "lerna run test",
