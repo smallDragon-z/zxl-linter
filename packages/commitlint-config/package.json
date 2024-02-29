@@ -23,9 +23,10 @@
     "url": "https://github.com/smallDragon-z/zxl-linter/issues"
   },
   "scripts": {
-    "publish": "pnpm publish"
+    "publish": "npm publish"
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  }
+  },
+  "gitHead": "bf2e17706c5123d2b5db6c002dd08c4e9f64bd6e"
 }
